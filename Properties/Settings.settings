@@ -1,0 +1,27 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="AgriPanda.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="oAuthMail" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">jlara@wwfca.org</Value>
+    </Setting>
+    <Setting Name="oAuthPasswd" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">awedxza2!</Value>
+    </Setting>
+    <Setting Name="oAuthConsumerKey" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">R8hZ8M56vGEk94CsPRD1bCkSi43G4718XRKfNecJ</Value>
+    </Setting>
+    <Setting Name="oAuthConsumerSecret" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">gNsKgbsqWRow5FNzwnyEIAC4d0KW29g9E97ut3TR</Value>
+    </Setting>
+    <Setting Name="oAuthDomain" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">wwfca</Value>
+    </Setting>
+    <Setting Name="addUPIisActive" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="addUPIServer" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://www.wwf-mar.org:8080/</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
