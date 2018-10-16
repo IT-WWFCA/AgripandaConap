@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ContractorsCountQuery" xml:space="preserve">
+    <value>SELECT COUNT(*) as count FROM contractors</value>
+    <comment>Count all rows in contractors table</comment>
+  </data>
+  <data name="DeseasesCountQuery" xml:space="preserve">
+    <value>SELECT COUNT(*) as count FROM ipm_deseases</value>
+    <comment>Select and count all rows in ipm_deseases table</comment>
+  </data>
+  <data name="FarmsCountQuery" xml:space="preserve">
+    <value>SELECT COUNT(*) as count FROM farms</value>
+    <comment>Select and count all rows in farms table</comment>
+  </data>
+  <data name="InsectsCountQuery" xml:space="preserve">
+    <value>SELECT COUNT(*) as count FROM ipm_insects</value>
+    <comment>Select and count all rows in ipm_insects table</comment>
+  </data>
+  <data name="LotsCountQuery" xml:space="preserve">
+    <value>SELECT COUNT(*) as count FROM lots</value>
+    <comment>Select and count all rows in lots table</comment>
+  </data>
+  <data name="LotsQuery" xml:space="preserve">
+    <value>SELECT * FROM lots ORDER BY LotID ASC</value>
+    <comment>Select all rows of lots table</comment>
+  </data>
+  <data name="ModulesQuery" xml:space="preserve">
+    <value>SELECT * FROM modules ORDER BY ModID ASC</value>
+    <comment>Select all rows of modules table</comment>
+  </data>
+  <data name="PmasksCountQuery" xml:space="preserve">
+    <value>SELECT COUNT(*) FROM groups</value>
+    <comment>Select and count all rows in users_type table</comment>
+  </data>
+  <data name="RodentsCountQuery" xml:space="preserve">
+    <value>SELECT COUNT(*) as count FROM ipm_rodents</value>
+    <comment>Select and count all rows in ipm_rodents table</comment>
+  </data>
+  <data name="SVCountQuery" xml:space="preserve">
+    <value>SELECT COUNT(*) as count FROM system_vars</value>
+    <comment>Select and count all rows in system vars table</comment>
+  </data>
+  <data name="UserCountQuery" xml:space="preserve">
+    <value>SELECT COUNT(*) FROM users</value>
+    <comment>Select and count all rows in users table</comment>
+  </data>
+  <data name="UserCountTypeQuery" xml:space="preserve">
+    <value>SELECT COUNT(*) as count FROM user_type</value>
+    <comment>Count all rows in user_type table</comment>
+  </data>
+  <data name="UserTypeQuery" xml:space="preserve">
+    <value>SELECT * FROM groups ORDER BY GroupID ASC</value>
+    <comment>Select all rows in groups table</comment>
+  </data>
+  <data name="VarietiesQuery" xml:space="preserve">
+    <value>SELECT * FROM varieties ORDER BY VarID ASC</value>
+    <comment>Select all rows of varieties table</comment>
+  </data>
+  <data name="VarsCountQuery" xml:space="preserve">
+    <value>SELECT COUNT(*) as count FROM varieties</value>
+    <comment>Select and count all rows in varieties table</comment>
+  </data>
+  <data name="WeedsCountQuery" xml:space="preserve">
+    <value>SELECT COUNT(*) as count FROM ipm_weeds</value>
+    <comment>Select and count all rows in ipm_weeds table</comment>
+  </data>
+  <data name="WSCountQuery" xml:space="preserve">
+    <value>SELECT COUNT(*) as count FROM weather</value>
+    <comment>Select and count all rows in weather table</comment>
+  </data>
+  <data name="CropCountQuery" xml:space="preserve">
+    <value>SELECT COUNT(*) as count FROM crops</value>
+    <comment>Select and count all rows in crops table</comment>
+  </data>
+  <data name="ModelCountQuery" xml:space="preserve">
+    <value>SELECT COUNT(*) as count FROM ipm_models</value>
+    <comment>Select and count all rows in ipm_models table</comment>
+  </data>
+  <data name="CropIDQuery" xml:space="preserve">
+    <value>SELECT * FROM crops ORDER BY CropID ASC</value>
+    <comment>Select all rows of varieties table</comment>
+  </data>
+  <data name="WSQuery" xml:space="preserve">
+    <value>SELECT * FROM weather ORDER BY WSID ASC</value>
+    <comment>Select all rows of weather table</comment>
+  </data>
+  <data name="FarmQuery" xml:space="preserve">
+    <value>SELECT * FROM farms ORDER BY FarmID ASC</value>
+    <comment>Select all rows of farms table</comment>
+  </data>
+  <data name="GetMenusQuery" xml:space="preserve">
+    <value>SELECT * FROM menus ORDER BY MenuID ASC</value>
+    <comment>Select all rows of menus table</comment>
+  </data>
+  <data name="FarmsRelQuery" xml:space="preserve">
+    <value>SELECT * FROM farms WHERE HasModel=1 ORDER BY FarmID ASC</value>
+    <comment>Select all rows of farm table that has model relations</comment>
+  </data>
+  <data name="MatrixCountQuery" xml:space="preserve">
+    <value>SELECT COUNT(*) as count FROM ipm_sigatoka_matrices</value>
+    <comment>Select and count all rows in sigatoka matrices table</comment>
+  </data>
+  <data name="SensorQuery" xml:space="preserve">
+    <value>SELECT * FROM weather_sensors ORDER BY SensorID ASC</value>
+    <comment>Select all rows of weather_sensors table</comment>
+  </data>
+  <data name="SMVCountQuery" xml:space="preserve">
+    <value>SELECT COUNT(*) as count FROM ipm_sigatoka_matrix_values</value>
+    <comment>Select and count all rows in matrix values table</comment>
+  </data>
+  <data name="SIGMATQuery" xml:space="preserve">
+    <value>SELECT * FROM ipm_sigatoka_matrices ORDER BY MatrixID ASC</value>
+    <comment>Select a;; rows of ipm_sigatoka_matrices table</comment>
+  </data>
+</root>
